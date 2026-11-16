@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio e Estúdio de Desenvolvimento Front-End acessível e responsivo — TSP DevWeb Studio.">
+    <title>TSP DevWeb Studio | Arquitetura Front-End Acessível &amp; Responsiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#inicio" class="logo" aria-label="TSP DevWeb Studio - Página Inicial">
+                <svg viewBox="0 0 64 64" width="38" height="38" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-hidden="true">
+                    <defs>
+                        <linearGradient id="tspGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#2563eb" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="32,3 58,18 58,46 32,61 6,46 6,18" fill="#0f172a" stroke="url(#tspGrad)"
+                        stroke-width="3.5" />
+                    <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', Arial, sans-serif"
+                        font-weight="800" font-size="20" letter-spacing="1">TSP</text>
+                </svg>
+                <div class="logo-info">
+                    <strong class="logo-title"><span>&lt;/&gt;</span> DevWeb Studio</strong>
+                    <span class="logo-subtitle">Arquitetura Front-End &amp; UX</span>
+                </div>
+            </a>
+
+            <nav class="main-nav" aria-label="Navegação Principal">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#pilares">Boas Práticas</a></li>
+                    <li><a href="#contato" class="nav-cta">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. CONTEÚDO PRINCIPAL (<main>) -->
+    <main id="conteudo-principal">
+
+        <section id="sobre" class="hero-section" aria-labelledby="titulo-principal">
+            <div class="hero-texto">
+                <span class="badge-fase">Fase 1 • HTML5 Semântico &amp; CSS3 Responsivo</span>
+                <h1 id="titulo-principal">Interfaces Web Acessíveis, Semânticas e Adaptáveis a Qualquer Tela</h1>
+                <p>
+                    Desenvolvemos experiências digitais modernas fundamentadas em código limpo, padrões W3C,
+                    acessibilidade inclusiva (WCAG) e layouts fluidos construídos com <strong>CSS Flexbox</strong> e
+                    <strong>CSS Grid</strong>.
+                </p>
+                <ul class="lista-destaques">
+                    <li>Estrutura semântica completa com foco em leitores de tela e SEO</li>
+                    <li>Design responsivo testado em smartphones, tablets e desktops</li>
+                    <li>Formulários interativos com validação nativa e feedback acessível</li>
+                </ul>
+                <div class="hero-acoes">
+                    <a href="#projetos" class="btn btn-primario">Explorar Projetos</a>
+                    <a href="#contato" class="btn btn-secundario">Solicitar Orçamento</a>
+                </div>
+            </div>
+
+            <figure class="hero-figura">
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 340'><defs><linearGradient id='gHero' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%230f172a'/><stop offset='100%' stop-color='%231e3a8a'/></linearGradient></defs><rect width='540' height='340' rx='16' fill='url(%23gHero)'/><rect x='36' y='36' width='290' height='190' rx='10' fill='%231e293b' stroke='%2338bdf8' stroke-width='2.5'/><rect x='54' y='58' width='120' height='14' rx='4' fill='%2338bdf8'/><rect x='54' y='86' width='250' height='10' rx='4' fill='%2394a3b8'/><rect x='54' y='106' width='210' height='10' rx='4' fill='%2394a3b8'/><rect x='54' y='136' width='76' height='68' rx='6' fill='%232563eb'/><rect x='142' y='136' width='76' height='68' rx='6' fill='%230284c7'/><rect x='230' y='136' width='76' height='68' rx='6' fill='%2338bdf8' fill-opacity='0.75'/><rect x='352' y='82' width='152' height='195' rx='12' fill='%231e293b' stroke='%237dd3fc' stroke-width='2.5'/><rect x='370' y='104' width='116' height='55' rx='6' fill='%232563eb'/><rect x='370' y='172' width='116' height='12' rx='4' fill='%23cbd5e1'/><rect x='370' y='194' width='90' height='12' rx='4' fill='%2394a3b8'/><rect x='370' y='224' width='116' height='32' rx='6' fill='%2338bdf8'/><text x='270' y='314' text-anchor='middle' fill='%23e2e8f0' font-family='Segoe UI, sans-serif' font-size='15' font-weight='bold'>TSP DevWeb Studio • Arquitetura Responsiva Multi-Tela</text></svg>"
+                    alt="Ilustração vetorial representando o layout responsivo do TSP DevWeb Studio adaptado simultaneamente para tela de desktop e dispositivo móvel">
+                <figcaption>Arquitetura responsiva integrada com HTML5, CSS Grid e Flexbox.</figcaption>
+            </figure>
+        </section>
+
+        <div class="layout-duas-colunas">
+
+            <section id="projetos" class="secao-projetos" aria-labelledby="titulo-projetos">
+                <div class="secao-cabecalho">
+                    <h2 id="titulo-projetos">Portfólio de Soluções Front-End</h2>
+                    <p>Implementações práticas desenvolvidas com foco em desempenho, semântica e usabilidade.</p>
+                </div>
+
+                <div class="grid-artigos">
+                    <article class="card-projeto">
+                        <figure>
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 210'><rect width='400' height='210' fill='%230f172a'/><rect x='45' y='35' width='190' height='140' rx='8' fill='%232563eb'/><rect x='250' y='35' width='105' height='140' rx='8' fill='%2338bdf8' fill-opacity='0.8'/><text x='200' y='112' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='20' font-weight='bold'>CSS Flexbox</text></svg>"
+                                alt="Diagrama visual de distribuição proporcional de colunas utilizando CSS Flexbox">
+                        </figure>
+                        <div class="card-conteudo">
+                            <span class="tag-tech">Flexbox • UI Dinâmica</span>
+                            <h3>Layouts Flexíveis em Eixo Único</h3>
+                            <p>
+                                Organização fluida de cabeçalhos, barras de navegação e contêineres expansíveis com
+                                <code>justify-content</code>, <code>align-items</code> e <code>flex-grow</code>.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card-projeto">
+                        <figure>
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 210'><rect width='400' height='210' fill='%231e3a8a'/><rect x='45' y='32' width='95' height='66' rx='6' fill='%2338bdf8'/><rect x='152' y='32' width='95' height='66' rx='6' fill='%230284c7'/><rect x='259' y='32' width='95' height='66' rx='6' fill='%2338bdf8'/><rect x='45' y='110' width='95' height='66' rx='6' fill='%230284c7'/><rect x='152' y='110' width='95' height='66' rx='6' fill='%2338bdf8'/><rect x='259' y='110' width='95' height='66' rx='6' fill='%230284c7'/><text x='200' y='112' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='20' font-weight='bold'>CSS Grid</text></svg>"
+                                alt="Diagrama visual de grade bidimensional com linhas e colunas em CSS Grid">
+                        </figure>
+                        <div class="card-conteudo">
+                            <span class="tag-tech">CSS Grid • Media Queries</span>
+                            <h3>Galerias Bidimensionais Responsivas</h3>
+                            <p>
+                                Estruturação em linhas e colunas com unidades fracionárias (<code>fr</code>) e adaptação
+                                automática entre 3, 2 e 1 coluna conforme o dispositivo.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card-projeto">
+                        <figure>
+                            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20400%20210'%3E%3Crect%20width%3D'400'%20height%3D'210'%20fill%3D'%230c4a6e'%2F%3E%3Ccircle%20cx%3D'200'%20cy%3D'105'%20r%3D'64'%20fill%3D'none'%20stroke%3D'%2338bdf8'%20stroke-width%3D'4'%20stroke-dasharray%3D'10%206'%2F%3E%3Ctext%20x%3D'200'%20y%3D'112'%20text-anchor%3D'middle'%20fill%3D'%23ffffff'%20font-family%3D'sans-serif'%20font-size%3D'20'%20font-weight%3D'bold'%3EWCAG%20%26amp%3B%20ARIA%3C%2Ftext%3E%3C%2Fsvg%3E"
+                                alt="Símbolo representando acessibilidade web, contraste e atributos ARIA">
+                        </figure>
+                        <div class="card-conteudo">
+                            <span class="tag-tech">Acessibilidade • HTML5</span>
+                            <h3>Interfaces Inclusivas e Navegáveis</h3>
+                            <p>
+                                Aplicação rigorosa de hierarquia de títulos, textos alternativos, alto contraste de
+                                cores e foco visível para navegação via teclado.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <aside id="pilares" class="barra-lateral" aria-labelledby="titulo-aside">
+                <h2 id="titulo-aside">Pilares Técnicos da Fase 1</h2>
+                <p>Diretrizes aplicadas na construção desta página estática:</p>
+                <ol class="lista-pilares">
+                    <li>
+                        <strong>Semântica Estrutural:</strong> Uso das tags <code>&lt;header&gt;</code>,
+                        <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>,
+                        <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> e <code>&lt;footer&gt;</code>.
+                    </li>
+                    <li>
+                        <strong>Contraste &amp; Tipografia:</strong> Escala tipográfica legível e relação de contraste
+                        superior a 4.5:1 (padrão WCAG AA).
+                    </li>
+                    <li>
+                        <strong>Responsividade Fluida:</strong> Breakpoints para smartphones (≤ 600px), tablets
+                        (601px–1024px) e desktops (&gt; 1024px).
+                    </li>
+                </ol>
+
+                <div class="box-autoria">
+                    <strong>Desenvolvedora</strong>
+                    <span>Thallita da Silva Pedreira</span>
+                    <small>Centro Universitário Celso Lisboa</small>
+                </div>
+            </aside>
+        </div>
+
+        <section id="contato" class="secao-formulario" aria-labelledby="titulo-contato">
+            <div class="form-info">
+                <h2 id="titulo-contato">Entre em Contato ou Inscreva-se</h2>
+                <p>
+                    Preencha o formulário abaixo para solicitar uma consultoria em desenvolvimento front-end ou receber
+                    atualizações sobre acessibilidade e design responsivo. Todos os campos obrigatórios possuem
+                    validação nativa em HTML5.
+                </p>
+            </div>
+
+            <form id="formContato" class="formulario-grid" aria-label="Formulário de Contato e Inscrição">
+                <div class="campo-grupo">
+                    <label for="nome">Nome Completo <span aria-hidden="true">*</span></label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex.: Thallita da Silva Pedreira" required
+                        minlength="3" autocomplete="name">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="email">E-mail Profissional <span aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Ex.: contato@exemplo.com.br" required
+                        autocomplete="email">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="telefone">Telefone / WhatsApp</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Ex.: (21) 99999-9999"
+                        pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$"
+                        title="Informe um telefone válido com DDD, como (21) 99999-9999" autocomplete="tel">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="assunto">Área de Interesse <span aria-hidden="true">*</span></label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione uma opção...</option>
+                        <option value="landing-page">Criação de Landing Page Responsiva</option>
+                        <option value="acessibilidade">Auditoria de Acessibilidade Web (WCAG)</option>
+                        <option value="newsletter">Inscrição na Newsletter Front-End</option>
+                    </select>
+                </div>
+
+                <div class="campo-grupo campo-largura-total">
+                    <label for="mensagem">Mensagem ou Objetivo do Projeto <span aria-hidden="true">*</span></label>
+                    <textarea id="mensagem" name="mensagem" rows="4"
+                        placeholder="Descreva brevemente sua necessidade ou dúvida..." required
+                        minlength="10"></textarea>
+                </div>
+
+                <div class="campo-checkbox campo-largura-total">
+                    <input type="checkbox" id="aceite" name="aceite" required>
+                    <label for="aceite">Concordo em receber retorno sobre esta solicitação conforme as boas práticas de
+                        privacidade. <span aria-hidden="true">*</span></label>
+                </div>
+
+                <div class="campo-acoes campo-largura-total">
+                    <button type="submit" class="btn btn-primario">Enviar Solicitação</button>
+                    <span id="feedbackForm" class="feedback-msg" role="status" aria-live="polite"></span>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- 3. RODAPÉ (<footer>) -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 <strong>TSP DevWeb Studio</strong> — Desenvolvido por Thallita da Silva Pedreira.</p>
+            <p>Centro Universitário Celso Lisboa • Projeto de Desenvolvimento Front-End (Fase 1)</p>
+        </div>
+    </footer>
+
+    <script>
+        const form = document.getElementById('formContato');
+        const feedback = document.getElementById('feedbackForm');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            if (form.checkValidity()) {
+                const nomeUsuario = document.getElementById('nome').value.trim();
+                feedback.textContent = `Obrigada, ${nomeUsuario}! Sua mensagem foi validada e enviada com sucesso.`;
+                feedback.classList.add('sucesso');
+                form.reset();
+            }
+        });
+    </script>
+</body>
+
+</html>
